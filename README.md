@@ -1,7 +1,7 @@
 Totoro
 ======
 
-当前版本：beta-1.0.0，包含两部分：totoro框架、TotoroSample基于totoro开发的雷电游戏。
+当前版本：beta-1.0.0，包含两部分：Totoro游戏引擎、TotoroSample基于Totoro开发的雷电游戏。
 ___
 <br>
 
