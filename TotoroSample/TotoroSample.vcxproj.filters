@@ -1,0 +1,672 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\app">
+      <UniqueIdentifier>{0e23a628-54ed-4f25-b6a0-1d2998c07d4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\totoro">
+      <UniqueIdentifier>{30b52bb0-4111-4df2-a6e4-052c000f9fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\totoro\ap">
+      <UniqueIdentifier>{d0acd3ce-bbc1-4825-9368-10ac1063ec5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\app">
+      <UniqueIdentifier>{15d2b111-b7ad-46b3-a0e3-7f34f0b670bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\totoro">
+      <UniqueIdentifier>{f7264180-e3c1-4dff-b863-8390e41bb101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\totoro\ap">
+      <UniqueIdentifier>{aa3745c6-c0ce-4cf1-a2b3-f4440f7d386a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\totoro\audio">
+      <UniqueIdentifier>{6394970a-2b59-4855-9b0f-93c1e2a4ea6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\totoro\audio">
+      <UniqueIdentifier>{9d80b79b-4d22-411d-9426-78350d5d5c3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\totoro\graphics">
+      <UniqueIdentifier>{aeab001f-2fab-48ae-9263-0999d6db5f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\totoro\graphics">
+      <UniqueIdentifier>{9f67b4fc-0ab5-4210-86ad-046b3705d3ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\totoro\graphics\dx">
+      <UniqueIdentifier>{c3e6674e-e63c-4091-af22-c3a00842010e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\totoro\graphics\dx">
+      <UniqueIdentifier>{456ab6ad-2379-4540-a2df-0d9ab98a3576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\totoro\form">
+      <UniqueIdentifier>{e9bbb2fb-1765-4159-a8ab-f04220a82d92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\totoro\form">
+      <UniqueIdentifier>{b87b145b-f960-4f69-bce3-02a4006b97b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\totoro\service">
+      <UniqueIdentifier>{4689ed86-b326-46b3-bc88-94ab85f99d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\totoro\service">
+      <UniqueIdentifier>{72bfdbeb-b280-4592-84d5-45bbaa116756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\totoro\util">
+      <UniqueIdentifier>{6b27d652-fa27-4375-9067-04a2d1ba20d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\totoro\util">
+      <UniqueIdentifier>{9f0a021c-056b-4262-a522-b2544b667668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res">
+      <UniqueIdentifier>{8f51a0f1-bb5b-4aed-bc97-9ea6d9ffbc66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\drawable">
+      <UniqueIdentifier>{017fc1f3-0e63-4c1f-80c7-aff47075d4b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\examples">
+      <UniqueIdentifier>{aa591f87-5e65-47b4-8295-e2acd2098e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\layout">
+      <UniqueIdentifier>{b8204b24-1c8b-4960-afa9-b2b8cff6d801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\raw">
+      <UniqueIdentifier>{8f6df5be-ad79-45e4-b944-0fd50ac5941b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\drawable\menu">
+      <UniqueIdentifier>{9ad71f5a-3179-4d96-91cf-0bd927124500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\drawable\setting_dialog">
+      <UniqueIdentifier>{61e61678-9d8f-418c-a154-f801043f0d2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\examples\form">
+      <UniqueIdentifier>{eb2efb58-eaa5-43f1-aa14-b11b41fdac8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\layout\level_1">
+      <UniqueIdentifier>{3a31800c-1f0b-494c-a420-71f780aecfd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\layout\level_2">
+      <UniqueIdentifier>{c3206e38-5c0e-4b07-b699-1d939b1cce3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\app\scenes">
+      <UniqueIdentifier>{ef410235-292b-45e6-bc15-41e8a117c8ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\app\services">
+      <UniqueIdentifier>{c99a62c7-1942-4a36-9328-a0663f9f62f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\app\services">
+      <UniqueIdentifier>{361cfb7e-7bb3-4876-8f84-007a699b7f12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\app\scenes">
+      <UniqueIdentifier>{7d487f63-6055-4b8d-98a1-9531ed39b1cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\app\services\enemy">
+      <UniqueIdentifier>{f2939b32-a017-4040-a65a-8efb54d36b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\app\services\enemy">
+      <UniqueIdentifier>{ba54cd50-cc33-4207-8294-24887ea5d7be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\app\services\player">
+      <UniqueIdentifier>{9d8f9ea6-68aa-4d9f-984b-03c39f130d22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\app\services\player">
+      <UniqueIdentifier>{bb214336-d47d-484a-85b0-6e37f279e18b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="totoro\ap\Console.cpp">
+      <Filter>源文件\totoro\ap</Filter>
+    </ClCompile>
+    <ClCompile Include="totoro\ap\Log.cpp">
+      <Filter>源文件\totoro\ap</Filter>
+    </ClCompile>
+    <ClCompile Include="totoro\ap\String.cpp">
+      <Filter>源文件\totoro\ap</Filter>
+    </ClCompile>
+    <ClCompile Include="totoro\ap\Window.cpp">
+      <Filter>源文件\totoro\ap</Filter>
+    </ClCompile>
+    <ClCompile Include="totoro\audio\Audio.cpp">
+      <Filter>源文件\totoro\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="totoro\audio\AudioRegistry.cpp">
+      <Filter>源文件\totoro\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="totoro\graphics\dx\DxDirect.cpp">
+      <Filter>源文件\totoro\graphics\dx</Filter>
+    </ClCompile>
+    <ClCompile Include="totoro\graphics\dx\DxGraphics.cpp">
+      <Filter>源文件\totoro\graphics\dx</Filter>
+    </ClCompile>
+    <ClCompile Include="totoro\graphics\Line2p.cpp">
+      <Filter>源文件\totoro\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="totoro\graphics\Scene.cpp">
+      <Filter>源文件\totoro\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="totoro\graphics\Sprite.cpp">
+      <Filter>源文件\totoro\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="totoro\graphics\Texture.cpp">
+      <Filter>源文件\totoro\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="totoro\graphics\TextureRegistry.cpp">
+      <Filter>源文件\totoro\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="totoro\form\CheckBox.cpp">
+      <Filter>源文件\totoro\form</Filter>
+    </ClCompile>
+    <ClCompile Include="totoro\form\ImageButton.cpp">
+      <Filter>源文件\totoro\form</Filter>
+    </ClCompile>
+    <ClCompile Include="totoro\service\Activity.cpp">
+      <Filter>源文件\totoro\service</Filter>
+    </ClCompile>
+    <ClCompile Include="totoro\service\Basic.cpp">
+      <Filter>源文件\totoro\service</Filter>
+    </ClCompile>
+    <ClCompile Include="totoro\service\MvVectorHelper.cpp">
+      <Filter>源文件\totoro\service</Filter>
+    </ClCompile>
+    <ClCompile Include="totoro\util\Collider.cpp">
+      <Filter>源文件\totoro\util</Filter>
+    </ClCompile>
+    <ClCompile Include="totoro\util\FontFamily.cpp">
+      <Filter>源文件\totoro\util</Filter>
+    </ClCompile>
+    <ClCompile Include="totoro\util\Text.cpp">
+      <Filter>源文件\totoro\util</Filter>
+    </ClCompile>
+    <ClCompile Include="app\services\Cfg.cpp">
+      <Filter>源文件\app\services</Filter>
+    </ClCompile>
+    <ClCompile Include="app\services\Map.cpp">
+      <Filter>源文件\app\services</Filter>
+    </ClCompile>
+    <ClCompile Include="app\services\ScoreBoard.cpp">
+      <Filter>源文件\app\services</Filter>
+    </ClCompile>
+    <ClCompile Include="app\services\SettingDialog.cpp">
+      <Filter>源文件\app\services</Filter>
+    </ClCompile>
+    <ClCompile Include="app\scenes\BaseScene.cpp">
+      <Filter>源文件\app\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="app\scenes\BattleScene.cpp">
+      <Filter>源文件\app\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="app\scenes\MainScene.cpp">
+      <Filter>源文件\app\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="app\services\enemy\Enemies.cpp">
+      <Filter>源文件\app\services\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="app\services\enemy\EnemyBullet.cpp">
+      <Filter>源文件\app\services\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="app\services\enemy\EnemyWarcraft.cpp">
+      <Filter>源文件\app\services\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="app\services\player\PlayerBullet.cpp">
+      <Filter>源文件\app\services\player</Filter>
+    </ClCompile>
+    <ClCompile Include="app\services\player\PlayerWarcraft.cpp">
+      <Filter>源文件\app\services\player</Filter>
+    </ClCompile>
+    <ClCompile Include="Director.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="totoro\ap\Console.h">
+      <Filter>头文件\totoro\ap</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\ap\INode.h">
+      <Filter>头文件\totoro\ap</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\ap\ISingleton.h">
+      <Filter>头文件\totoro\ap</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\ap\Log.h">
+      <Filter>头文件\totoro\ap</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\ap\String.h">
+      <Filter>头文件\totoro\ap</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\ap\Window.h">
+      <Filter>头文件\totoro\ap</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\audio\Audio.h">
+      <Filter>头文件\totoro\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\audio\AudioRegistry.h">
+      <Filter>头文件\totoro\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\graphics\dx\DxDirect.h">
+      <Filter>头文件\totoro\graphics\dx</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\graphics\dx\DxGraphics.h">
+      <Filter>头文件\totoro\graphics\dx</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\graphics\IGraphics.h">
+      <Filter>头文件\totoro\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\graphics\Line2p.h">
+      <Filter>头文件\totoro\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\graphics\Scene.h">
+      <Filter>头文件\totoro\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\graphics\Sprite.h">
+      <Filter>头文件\totoro\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\graphics\Texture.h">
+      <Filter>头文件\totoro\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\graphics\TextureRegistry.h">
+      <Filter>头文件\totoro\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\ap\ILayer.h">
+      <Filter>头文件\totoro\ap</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\ap\IScene.h">
+      <Filter>头文件\totoro\ap</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\form\CheckBox.h">
+      <Filter>头文件\totoro\form</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\form\ImageButton.h">
+      <Filter>头文件\totoro\form</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\service\Activity.h">
+      <Filter>头文件\totoro\service</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\service\Basic.h">
+      <Filter>头文件\totoro\service</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\service\MvVectorHelper.h">
+      <Filter>头文件\totoro\service</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\util\Collider.h">
+      <Filter>头文件\totoro\util</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\util\FontFamily.h">
+      <Filter>头文件\totoro\util</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\util\Text.h">
+      <Filter>头文件\totoro\util</Filter>
+    </ClInclude>
+    <ClInclude Include="app\services\Cfg.h">
+      <Filter>头文件\app\services</Filter>
+    </ClInclude>
+    <ClInclude Include="app\services\Map.h">
+      <Filter>头文件\app\services</Filter>
+    </ClInclude>
+    <ClInclude Include="app\services\ScoreBoard.h">
+      <Filter>头文件\app\services</Filter>
+    </ClInclude>
+    <ClInclude Include="app\services\SettingDialog.h">
+      <Filter>头文件\app\services</Filter>
+    </ClInclude>
+    <ClInclude Include="app\scenes\BaseScene.h">
+      <Filter>头文件\app\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="app\scenes\BattleScene.h">
+      <Filter>头文件\app\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="app\scenes\MainScene.h">
+      <Filter>头文件\app\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="app\services\enemy\Enemies.h">
+      <Filter>头文件\app\services\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="app\services\enemy\EnemyBullet.h">
+      <Filter>头文件\app\services\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="app\services\enemy\EnemyWarcraft.h">
+      <Filter>头文件\app\services\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="app\services\player\PlayerBullet.h">
+      <Filter>头文件\app\services\player</Filter>
+    </ClInclude>
+    <ClInclude Include="app\services\player\PlayerWarcraft.h">
+      <Filter>头文件\app\services\player</Filter>
+    </ClInclude>
+    <ClInclude Include="Director.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\ap\Macros.h">
+      <Filter>头文件\totoro\ap</Filter>
+    </ClInclude>
+    <ClInclude Include="totoro\ap\Defs.h">
+      <Filter>头文件\totoro\ap</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Bin\res\drawable\menu\MenuEscape_Disabled.png">
+      <Filter>资源文件\res\drawable\menu</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\menu\MenuEscape_Normal.png">
+      <Filter>资源文件\res\drawable\menu</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\menu\MenuEscape_OnMouseClick.png">
+      <Filter>资源文件\res\drawable\menu</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\menu\MenuEscape_OnMouseOver.png">
+      <Filter>资源文件\res\drawable\menu</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\menu\MenuSetting_Disabled.png">
+      <Filter>资源文件\res\drawable\menu</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\menu\MenuSetting_Normal.png">
+      <Filter>资源文件\res\drawable\menu</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\menu\MenuSetting_OnMouseClick.png">
+      <Filter>资源文件\res\drawable\menu</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\menu\MenuSetting_OnMouseOver.png">
+      <Filter>资源文件\res\drawable\menu</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\menu\MenuStart_Disabled.png">
+      <Filter>资源文件\res\drawable\menu</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\menu\MenuStart_Normal.png">
+      <Filter>资源文件\res\drawable\menu</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\menu\MenuStart_OnMouseClick.png">
+      <Filter>资源文件\res\drawable\menu</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\menu\MenuStart_OnMouseOver.png">
+      <Filter>资源文件\res\drawable\menu</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\setting_dialog\BtnCancel_Disabled.png">
+      <Filter>资源文件\res\drawable\setting_dialog</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\setting_dialog\BtnCancel_Normal.png">
+      <Filter>资源文件\res\drawable\setting_dialog</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\setting_dialog\BtnCancel_OnMouseClick.png">
+      <Filter>资源文件\res\drawable\setting_dialog</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\setting_dialog\BtnCancel_OnMouseOver.png">
+      <Filter>资源文件\res\drawable\setting_dialog</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\setting_dialog\BtnOk_Disabled.png">
+      <Filter>资源文件\res\drawable\setting_dialog</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\setting_dialog\BtnOk_Normal.png">
+      <Filter>资源文件\res\drawable\setting_dialog</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\setting_dialog\BtnOk_OnMouseClick.png">
+      <Filter>资源文件\res\drawable\setting_dialog</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\setting_dialog\BtnOk_OnMouseOver.png">
+      <Filter>资源文件\res\drawable\setting_dialog</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\setting_dialog\CheckBox_Disabled.png">
+      <Filter>资源文件\res\drawable\setting_dialog</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\setting_dialog\CheckBox_Disabled_Checked.png">
+      <Filter>资源文件\res\drawable\setting_dialog</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\setting_dialog\CheckBox_Normal.png">
+      <Filter>资源文件\res\drawable\setting_dialog</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\setting_dialog\CheckBox_Normal_Checked.png">
+      <Filter>资源文件\res\drawable\setting_dialog</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\destroy1.png">
+      <Filter>资源文件\res\drawable</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\destroy2.png">
+      <Filter>资源文件\res\drawable</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\enemy_boss.png">
+      <Filter>资源文件\res\drawable</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\enemy_bullet.png">
+      <Filter>资源文件\res\drawable</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\enemy_warcraft.png">
+      <Filter>资源文件\res\drawable</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\map_battle.png">
+      <Filter>资源文件\res\drawable</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\player_boss_4fire.png">
+      <Filter>资源文件\res\drawable</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\player_bullet.png">
+      <Filter>资源文件\res\drawable</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\player_warcraft_1fire.png">
+      <Filter>资源文件\res\drawable</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\player_warcraft_2fire.png">
+      <Filter>资源文件\res\drawable</Filter>
+    </Image>
+    <Image Include="..\Bin\res\drawable\setting_dialog.png">
+      <Filter>资源文件\res\drawable</Filter>
+    </Image>
+    <Image Include="..\Bin\res\examples\form\button_01.png">
+      <Filter>资源文件\res\examples\form</Filter>
+    </Image>
+    <Image Include="..\Bin\res\examples\form\button_02.png">
+      <Filter>资源文件\res\examples\form</Filter>
+    </Image>
+    <Image Include="..\Bin\res\examples\form\button_11.png">
+      <Filter>资源文件\res\examples\form</Filter>
+    </Image>
+    <Image Include="..\Bin\res\examples\form\button_12.png">
+      <Filter>资源文件\res\examples\form</Filter>
+    </Image>
+    <Image Include="..\Bin\res\examples\form\button_21.png">
+      <Filter>资源文件\res\examples\form</Filter>
+    </Image>
+    <Image Include="..\Bin\res\examples\form\button_22.png">
+      <Filter>资源文件\res\examples\form</Filter>
+    </Image>
+    <Image Include="..\Bin\res\examples\form\CheckBox_Disabled.png">
+      <Filter>资源文件\res\examples\form</Filter>
+    </Image>
+    <Image Include="..\Bin\res\examples\form\CheckBox_Disabled_Checked.png">
+      <Filter>资源文件\res\examples\form</Filter>
+    </Image>
+    <Image Include="..\Bin\res\examples\form\CheckBox_Normal.png">
+      <Filter>资源文件\res\examples\form</Filter>
+    </Image>
+    <Image Include="..\Bin\res\examples\form\CheckBox_Normal_Checked.png">
+      <Filter>资源文件\res\examples\form</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Bin\res\drawable\menu\MenuEscape_Disabled.psd">
+      <Filter>资源文件\res\drawable\menu</Filter>
+    </None>
+    <None Include="..\Bin\res\drawable\menu\MenuEscape_Normal.psd">
+      <Filter>资源文件\res\drawable\menu</Filter>
+    </None>
+    <None Include="..\Bin\res\drawable\menu\MenuEscape_OnMouseClick.psd">
+      <Filter>资源文件\res\drawable\menu</Filter>
+    </None>
+    <None Include="..\Bin\res\drawable\menu\MenuEscape_OnMouseOver.psd">
+      <Filter>资源文件\res\drawable\menu</Filter>
+    </None>
+    <None Include="..\Bin\res\drawable\menu\MenuSetting_Disabled.psd">
+      <Filter>资源文件\res\drawable\menu</Filter>
+    </None>
+    <None Include="..\Bin\res\drawable\menu\MenuSetting_Normal.psd">
+      <Filter>资源文件\res\drawable\menu</Filter>
+    </None>
+    <None Include="..\Bin\res\drawable\menu\MenuSetting_OnMouseClick.psd">
+      <Filter>资源文件\res\drawable\menu</Filter>
+    </None>
+    <None Include="..\Bin\res\drawable\menu\MenuSetting_OnMouseOver.psd">
+      <Filter>资源文件\res\drawable\menu</Filter>
+    </None>
+    <None Include="..\Bin\res\drawable\menu\MenuStart_Disabled.psd">
+      <Filter>资源文件\res\drawable\menu</Filter>
+    </None>
+    <None Include="..\Bin\res\drawable\menu\MenuStart_Normal.psd">
+      <Filter>资源文件\res\drawable\menu</Filter>
+    </None>
+    <None Include="..\Bin\res\drawable\menu\MenuStart_OnMouseClick.psd">
+      <Filter>资源文件\res\drawable\menu</Filter>
+    </None>
+    <None Include="..\Bin\res\drawable\menu\MenuStart_OnMouseOver.psd">
+      <Filter>资源文件\res\drawable\menu</Filter>
+    </None>
+    <None Include="..\Bin\res\drawable\setting_dialog\BtnCancel_Disabled.psd">
+      <Filter>资源文件\res\drawable\setting_dialog</Filter>
+    </None>
+    <None Include="..\Bin\res\drawable\setting_dialog\BtnCancel_Normal.psd">
+      <Filter>资源文件\res\drawable\setting_dialog</Filter>
+    </None>
+    <None Include="..\Bin\res\drawable\setting_dialog\BtnCancel_OnMouseClick.psd">
+      <Filter>资源文件\res\drawable\setting_dialog</Filter>
+    </None>
+    <None Include="..\Bin\res\drawable\setting_dialog\BtnCancel_OnMouseOver.psd">
+      <Filter>资源文件\res\drawable\setting_dialog</Filter>
+    </None>
+    <None Include="..\Bin\res\drawable\setting_dialog\BtnOk_Disabled.psd">
+      <Filter>资源文件\res\drawable\setting_dialog</Filter>
+    </None>
+    <None Include="..\Bin\res\drawable\setting_dialog\BtnOk_Normal.psd">
+      <Filter>资源文件\res\drawable\setting_dialog</Filter>
+    </None>
+    <None Include="..\Bin\res\drawable\setting_dialog\BtnOk_OnMouseClick.psd">
+      <Filter>资源文件\res\drawable\setting_dialog</Filter>
+    </None>
+    <None Include="..\Bin\res\drawable\setting_dialog\BtnOk_OnMouseOver.psd">
+      <Filter>资源文件\res\drawable\setting_dialog</Filter>
+    </None>
+    <None Include="..\Bin\res\examples\form\Button_OnMouseClick.ogg">
+      <Filter>资源文件\res\examples\form</Filter>
+    </None>
+    <None Include="..\Bin\res\examples\form\Button_OnMouseOver.ogg">
+      <Filter>资源文件\res\examples\form</Filter>
+    </None>
+    <None Include="..\Bin\res\examples\Basic-example.ini">
+      <Filter>资源文件\res\examples</Filter>
+    </None>
+    <None Include="..\Bin\res\examples\Button-example.ini">
+      <Filter>资源文件\res\examples</Filter>
+    </None>
+    <None Include="..\Bin\res\examples\CheckBox-example.ini">
+      <Filter>资源文件\res\examples</Filter>
+    </None>
+    <None Include="..\Bin\res\examples\MvVector-example.ini">
+      <Filter>资源文件\res\examples</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\menu_escape.ini">
+      <Filter>资源文件\res\layout</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\menu_setting.ini">
+      <Filter>资源文件\res\layout</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\menu_start.ini">
+      <Filter>资源文件\res\layout</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\player_1.ini">
+      <Filter>资源文件\res\layout</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\player_2.ini">
+      <Filter>资源文件\res\layout</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\score_board.ini">
+      <Filter>资源文件\res\layout</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\score_board_title.ini">
+      <Filter>资源文件\res\layout</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\setting_dialog.ini">
+      <Filter>资源文件\res\layout</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\title.ini">
+      <Filter>资源文件\res\layout</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\level_1\enemies.ini">
+      <Filter>资源文件\res\layout\level_1</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\level_1\enemy_1.ini">
+      <Filter>资源文件\res\layout\level_1</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\level_1\enemy_2.ini">
+      <Filter>资源文件\res\layout\level_1</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\level_1\enemy_5.ini">
+      <Filter>资源文件\res\layout\level_1</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\level_1\enemy_6.ini">
+      <Filter>资源文件\res\layout\level_1</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\level_1\enemy_9.ini">
+      <Filter>资源文件\res\layout\level_1</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\level_1\enemy_10.ini">
+      <Filter>资源文件\res\layout\level_1</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\level_2\enemies.ini">
+      <Filter>资源文件\res\layout\level_2</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\level_2\enemy_1.ini">
+      <Filter>资源文件\res\layout\level_2</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\level_2\enemy_2.ini">
+      <Filter>资源文件\res\layout\level_2</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\level_2\enemy_3.ini">
+      <Filter>资源文件\res\layout\level_2</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\level_2\enemy_4.ini">
+      <Filter>资源文件\res\layout\level_2</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\level_2\enemy_5.ini">
+      <Filter>资源文件\res\layout\level_2</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\level_2\enemy_6.ini">
+      <Filter>资源文件\res\layout\level_2</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\level_2\enemy_7.ini">
+      <Filter>资源文件\res\layout\level_2</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\level_2\enemy_8.ini">
+      <Filter>资源文件\res\layout\level_2</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\level_2\enemy_9.ini">
+      <Filter>资源文件\res\layout\level_2</Filter>
+    </None>
+    <None Include="..\Bin\res\layout\level_2\enemy_10.ini">
+      <Filter>资源文件\res\layout\level_2</Filter>
+    </None>
+    <None Include="..\Bin\res\raw\Button_OnMouseClick.ogg">
+      <Filter>资源文件\res\raw</Filter>
+    </None>
+    <None Include="..\Bin\res\raw\Button_OnMouseOver.ogg">
+      <Filter>资源文件\res\raw</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\Bin\res\raw\Destroy_1.wav">
+      <Filter>资源文件\res\raw</Filter>
+    </Media>
+    <Media Include="..\Bin\res\raw\Shoot_1.wav">
+      <Filter>资源文件\res\raw</Filter>
+    </Media>
+    <Media Include="..\Bin\res\raw\Shoot_2.wav">
+      <Filter>资源文件\res\raw</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

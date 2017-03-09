@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A2FBA833-BD9A-46DF-8957-81935819911C}</ProjectGuid>
+    <RootNamespace>TotoroSample</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\Bin</OutDir>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Windows\bass24\c;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Windows\bass24\c;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="app\scenes\BaseScene.cpp" />
+    <ClCompile Include="app\scenes\BattleScene.cpp" />
+    <ClCompile Include="app\scenes\MainScene.cpp" />
+    <ClCompile Include="app\services\Cfg.cpp" />
+    <ClCompile Include="app\services\enemy\Enemies.cpp" />
+    <ClCompile Include="app\services\enemy\EnemyBullet.cpp" />
+    <ClCompile Include="app\services\enemy\EnemyWarcraft.cpp" />
+    <ClCompile Include="app\services\Map.cpp" />
+    <ClCompile Include="app\services\player\PlayerBullet.cpp" />
+    <ClCompile Include="app\services\player\PlayerWarcraft.cpp" />
+    <ClCompile Include="app\services\ScoreBoard.cpp" />
+    <ClCompile Include="app\services\SettingDialog.cpp" />
+    <ClCompile Include="Director.cpp" />
+    <ClCompile Include="totoro\ap\Console.cpp" />
+    <ClCompile Include="totoro\ap\Log.cpp" />
+    <ClCompile Include="totoro\ap\String.cpp" />
+    <ClCompile Include="totoro\ap\Window.cpp" />
+    <ClCompile Include="totoro\audio\Audio.cpp" />
+    <ClCompile Include="totoro\audio\AudioRegistry.cpp" />
+    <ClCompile Include="totoro\form\CheckBox.cpp" />
+    <ClCompile Include="totoro\form\ImageButton.cpp" />
+    <ClCompile Include="totoro\graphics\dx\DxDirect.cpp" />
+    <ClCompile Include="totoro\graphics\dx\DxGraphics.cpp" />
+    <ClCompile Include="totoro\graphics\Line2p.cpp" />
+    <ClCompile Include="totoro\graphics\Scene.cpp" />
+    <ClCompile Include="totoro\graphics\Sprite.cpp" />
+    <ClCompile Include="totoro\graphics\Texture.cpp" />
+    <ClCompile Include="totoro\graphics\TextureRegistry.cpp" />
+    <ClCompile Include="totoro\service\Activity.cpp" />
+    <ClCompile Include="totoro\service\Basic.cpp" />
+    <ClCompile Include="totoro\service\MvVectorHelper.cpp" />
+    <ClCompile Include="totoro\util\Collider.cpp" />
+    <ClCompile Include="totoro\util\FontFamily.cpp" />
+    <ClCompile Include="totoro\util\Text.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app\scenes\BaseScene.h" />
+    <ClInclude Include="app\scenes\BattleScene.h" />
+    <ClInclude Include="app\scenes\MainScene.h" />
+    <ClInclude Include="app\services\Cfg.h" />
+    <ClInclude Include="app\services\enemy\Enemies.h" />
+    <ClInclude Include="app\services\enemy\EnemyBullet.h" />
+    <ClInclude Include="app\services\enemy\EnemyWarcraft.h" />
+    <ClInclude Include="app\services\Map.h" />
+    <ClInclude Include="app\services\player\PlayerBullet.h" />
+    <ClInclude Include="app\services\player\PlayerWarcraft.h" />
+    <ClInclude Include="app\services\ScoreBoard.h" />
+    <ClInclude Include="app\services\SettingDialog.h" />
+    <ClInclude Include="Director.h" />
+    <ClInclude Include="totoro\ap\Console.h" />
+    <ClInclude Include="totoro\ap\Defs.h" />
+    <ClInclude Include="totoro\ap\ILayer.h" />
+    <ClInclude Include="totoro\ap\INode.h" />
+    <ClInclude Include="totoro\ap\IScene.h" />
+    <ClInclude Include="totoro\ap\ISingleton.h" />
+    <ClInclude Include="totoro\ap\Log.h" />
+    <ClInclude Include="totoro\ap\Macros.h" />
+    <ClInclude Include="totoro\ap\String.h" />
+    <ClInclude Include="totoro\ap\Window.h" />
+    <ClInclude Include="totoro\audio\Audio.h" />
+    <ClInclude Include="totoro\audio\AudioRegistry.h" />
+    <ClInclude Include="totoro\form\CheckBox.h" />
+    <ClInclude Include="totoro\form\ImageButton.h" />
+    <ClInclude Include="totoro\graphics\dx\DxDirect.h" />
+    <ClInclude Include="totoro\graphics\dx\DxGraphics.h" />
+    <ClInclude Include="totoro\graphics\IGraphics.h" />
+    <ClInclude Include="totoro\graphics\Line2p.h" />
+    <ClInclude Include="totoro\graphics\Scene.h" />
+    <ClInclude Include="totoro\graphics\Sprite.h" />
+    <ClInclude Include="totoro\graphics\Texture.h" />
+    <ClInclude Include="totoro\graphics\TextureRegistry.h" />
+    <ClInclude Include="totoro\service\Activity.h" />
+    <ClInclude Include="totoro\service\Basic.h" />
+    <ClInclude Include="totoro\service\MvVectorHelper.h" />
+    <ClInclude Include="totoro\util\Collider.h" />
+    <ClInclude Include="totoro\util\FontFamily.h" />
+    <ClInclude Include="totoro\util\Text.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Bin\res\drawable\destroy1.png" />
+    <Image Include="..\Bin\res\drawable\destroy2.png" />
+    <Image Include="..\Bin\res\drawable\enemy_boss.png" />
+    <Image Include="..\Bin\res\drawable\enemy_bullet.png" />
+    <Image Include="..\Bin\res\drawable\enemy_warcraft.png" />
+    <Image Include="..\Bin\res\drawable\map_battle.png" />
+    <Image Include="..\Bin\res\drawable\menu\MenuEscape_Disabled.png" />
+    <Image Include="..\Bin\res\drawable\menu\MenuEscape_Normal.png" />
+    <Image Include="..\Bin\res\drawable\menu\MenuEscape_OnMouseClick.png" />
+    <Image Include="..\Bin\res\drawable\menu\MenuEscape_OnMouseOver.png" />
+    <Image Include="..\Bin\res\drawable\menu\MenuSetting_Disabled.png" />
+    <Image Include="..\Bin\res\drawable\menu\MenuSetting_Normal.png" />
+    <Image Include="..\Bin\res\drawable\menu\MenuSetting_OnMouseClick.png" />
+    <Image Include="..\Bin\res\drawable\menu\MenuSetting_OnMouseOver.png" />
+    <Image Include="..\Bin\res\drawable\menu\MenuStart_Disabled.png" />
+    <Image Include="..\Bin\res\drawable\menu\MenuStart_Normal.png" />
+    <Image Include="..\Bin\res\drawable\menu\MenuStart_OnMouseClick.png" />
+    <Image Include="..\Bin\res\drawable\menu\MenuStart_OnMouseOver.png" />
+    <Image Include="..\Bin\res\drawable\player_boss_4fire.png" />
+    <Image Include="..\Bin\res\drawable\player_bullet.png" />
+    <Image Include="..\Bin\res\drawable\player_warcraft_1fire.png" />
+    <Image Include="..\Bin\res\drawable\player_warcraft_2fire.png" />
+    <Image Include="..\Bin\res\drawable\setting_dialog.png" />
+    <Image Include="..\Bin\res\drawable\setting_dialog\BtnCancel_Disabled.png" />
+    <Image Include="..\Bin\res\drawable\setting_dialog\BtnCancel_Normal.png" />
+    <Image Include="..\Bin\res\drawable\setting_dialog\BtnCancel_OnMouseClick.png" />
+    <Image Include="..\Bin\res\drawable\setting_dialog\BtnCancel_OnMouseOver.png" />
+    <Image Include="..\Bin\res\drawable\setting_dialog\BtnOk_Disabled.png" />
+    <Image Include="..\Bin\res\drawable\setting_dialog\BtnOk_Normal.png" />
+    <Image Include="..\Bin\res\drawable\setting_dialog\BtnOk_OnMouseClick.png" />
+    <Image Include="..\Bin\res\drawable\setting_dialog\BtnOk_OnMouseOver.png" />
+    <Image Include="..\Bin\res\drawable\setting_dialog\CheckBox_Disabled.png" />
+    <Image Include="..\Bin\res\drawable\setting_dialog\CheckBox_Disabled_Checked.png" />
+    <Image Include="..\Bin\res\drawable\setting_dialog\CheckBox_Normal.png" />
+    <Image Include="..\Bin\res\drawable\setting_dialog\CheckBox_Normal_Checked.png" />
+    <Image Include="..\Bin\res\examples\form\button_01.png" />
+    <Image Include="..\Bin\res\examples\form\button_02.png" />
+    <Image Include="..\Bin\res\examples\form\button_11.png" />
+    <Image Include="..\Bin\res\examples\form\button_12.png" />
+    <Image Include="..\Bin\res\examples\form\button_21.png" />
+    <Image Include="..\Bin\res\examples\form\button_22.png" />
+    <Image Include="..\Bin\res\examples\form\CheckBox_Disabled.png" />
+    <Image Include="..\Bin\res\examples\form\CheckBox_Disabled_Checked.png" />
+    <Image Include="..\Bin\res\examples\form\CheckBox_Normal.png" />
+    <Image Include="..\Bin\res\examples\form\CheckBox_Normal_Checked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Bin\res\drawable\menu\MenuEscape_Disabled.psd" />
+    <None Include="..\Bin\res\drawable\menu\MenuEscape_Normal.psd" />
+    <None Include="..\Bin\res\drawable\menu\MenuEscape_OnMouseClick.psd" />
+    <None Include="..\Bin\res\drawable\menu\MenuEscape_OnMouseOver.psd" />
+    <None Include="..\Bin\res\drawable\menu\MenuSetting_Disabled.psd" />
+    <None Include="..\Bin\res\drawable\menu\MenuSetting_Normal.psd" />
+    <None Include="..\Bin\res\drawable\menu\MenuSetting_OnMouseClick.psd" />
+    <None Include="..\Bin\res\drawable\menu\MenuSetting_OnMouseOver.psd" />
+    <None Include="..\Bin\res\drawable\menu\MenuStart_Disabled.psd" />
+    <None Include="..\Bin\res\drawable\menu\MenuStart_Normal.psd" />
+    <None Include="..\Bin\res\drawable\menu\MenuStart_OnMouseClick.psd" />
+    <None Include="..\Bin\res\drawable\menu\MenuStart_OnMouseOver.psd" />
+    <None Include="..\Bin\res\drawable\setting_dialog\BtnCancel_Disabled.psd" />
+    <None Include="..\Bin\res\drawable\setting_dialog\BtnCancel_Normal.psd" />
+    <None Include="..\Bin\res\drawable\setting_dialog\BtnCancel_OnMouseClick.psd" />
+    <None Include="..\Bin\res\drawable\setting_dialog\BtnCancel_OnMouseOver.psd" />
+    <None Include="..\Bin\res\drawable\setting_dialog\BtnOk_Disabled.psd" />
+    <None Include="..\Bin\res\drawable\setting_dialog\BtnOk_Normal.psd" />
+    <None Include="..\Bin\res\drawable\setting_dialog\BtnOk_OnMouseClick.psd" />
+    <None Include="..\Bin\res\drawable\setting_dialog\BtnOk_OnMouseOver.psd" />
+    <None Include="..\Bin\res\examples\Basic-example.ini" />
+    <None Include="..\Bin\res\examples\Button-example.ini" />
+    <None Include="..\Bin\res\examples\CheckBox-example.ini" />
+    <None Include="..\Bin\res\examples\form\Button_OnMouseClick.ogg" />
+    <None Include="..\Bin\res\examples\form\Button_OnMouseOver.ogg" />
+    <None Include="..\Bin\res\examples\MvVector-example.ini" />
+    <None Include="..\Bin\res\layout\level_1\enemies.ini" />
+    <None Include="..\Bin\res\layout\level_1\enemy_1.ini" />
+    <None Include="..\Bin\res\layout\level_1\enemy_10.ini" />
+    <None Include="..\Bin\res\layout\level_1\enemy_2.ini" />
+    <None Include="..\Bin\res\layout\level_1\enemy_5.ini" />
+    <None Include="..\Bin\res\layout\level_1\enemy_6.ini" />
+    <None Include="..\Bin\res\layout\level_1\enemy_9.ini" />
+    <None Include="..\Bin\res\layout\level_2\enemies.ini" />
+    <None Include="..\Bin\res\layout\level_2\enemy_1.ini" />
+    <None Include="..\Bin\res\layout\level_2\enemy_10.ini" />
+    <None Include="..\Bin\res\layout\level_2\enemy_2.ini" />
+    <None Include="..\Bin\res\layout\level_2\enemy_3.ini" />
+    <None Include="..\Bin\res\layout\level_2\enemy_4.ini" />
+    <None Include="..\Bin\res\layout\level_2\enemy_5.ini" />
+    <None Include="..\Bin\res\layout\level_2\enemy_6.ini" />
+    <None Include="..\Bin\res\layout\level_2\enemy_7.ini" />
+    <None Include="..\Bin\res\layout\level_2\enemy_8.ini" />
+    <None Include="..\Bin\res\layout\level_2\enemy_9.ini" />
+    <None Include="..\Bin\res\layout\menu_escape.ini" />
+    <None Include="..\Bin\res\layout\menu_setting.ini" />
+    <None Include="..\Bin\res\layout\menu_start.ini" />
+    <None Include="..\Bin\res\layout\player_1.ini" />
+    <None Include="..\Bin\res\layout\player_2.ini" />
+    <None Include="..\Bin\res\layout\score_board.ini" />
+    <None Include="..\Bin\res\layout\score_board_title.ini" />
+    <None Include="..\Bin\res\layout\setting_dialog.ini" />
+    <None Include="..\Bin\res\layout\title.ini" />
+    <None Include="..\Bin\res\raw\Button_OnMouseClick.ogg" />
+    <None Include="..\Bin\res\raw\Button_OnMouseOver.ogg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\Bin\res\raw\Destroy_1.wav" />
+    <Media Include="..\Bin\res\raw\Shoot_1.wav" />
+    <Media Include="..\Bin\res\raw\Shoot_2.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
