@@ -1,17 +1,17 @@
-1¡¢ÒÀÀµ»·¾³
-Microsoft DirectX SDK (June 2010) ºÍ bass24
+1ã€ä¾èµ–çŽ¯å¢ƒ
+Microsoft DirectX SDK (June 2010) å’Œ bass24
 
-2¡¢°²×°µØÖ·
+2ã€å®‰è£…DirectX å’Œ bass24
+bass24.zipå®‰è£…åŒ…ï¼š...\totoro\Bin\setup\bass24.zip
+DirectXå®‰è£…åŒ…å¤ªå¤§ï¼Œä¸æäº¤GitHub
+
+å®‰è£…åœ°å€ï¼š
 C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)
-C:\Windows\bass24 -- Ö±½Ó½âÑ¹
+C:\Windows\bass24 -- ç›´æŽ¥è§£åŽ‹
 
-3¡¢´´½¨Ä¿Â¼
-totoroÏÂ½¨BinÄ¿Â¼
-BinÏÂ½¨logÄ¿Â¼
-
-4¡¢ÅäÖÃÊôÐÔ
-³£¹æ -> Êä³öÄ¿Â¼ -> ..\Bin
-³£¹æ -> ×Ö·û¼¯ -> Ê¹ÓÃUnicode×Ö·û¼¯
-µ÷ÊÔ -> ¹¤×÷Ä¿Â¼ -> ..\Bin
-VC++Ä¿Â¼ -> °üº¬Ä¿Â¼ -> C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include ºÍ C:\Windows\bass24\c
-VC++Ä¿Â¼ -> ¿âÄ¿Â¼ -> C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86 ºÍ C:\Windows\bass24\c
+3ã€é…ç½®å±žæ€§
+å¸¸è§„ -> è¾“å‡ºç›®å½• -> ..\Bin
+å¸¸è§„ -> å­—ç¬¦é›† -> ä½¿ç”¨Unicodeå­—ç¬¦é›†
+è°ƒè¯• -> å·¥ä½œç›®å½• -> ..\Bin
+VC++ç›®å½• -> åŒ…å«ç›®å½• -> C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include å’Œ C:\Windows\bass24\c
+VC++ç›®å½• -> åº“ç›®å½• -> C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86 å’Œ C:\Windows\bass24\c
