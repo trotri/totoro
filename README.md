@@ -6,7 +6,7 @@ ___
 <br>
 
 ## Totoro - 游戏引擎
-麻雀虽小五脏俱全，包括：角色、层、场景、日志、音频（bass24）、精灵、贴图|字体|线（DirectX）、表单（CheckBox、ImageButto）、场景切换、XML配置视图和动作。
+麻雀虽小五脏俱全，包括：角色、层、场景、日志、音频（bass24）、精灵、贴图|字体|线（DirectX）、表单（CheckBox、ImageButton）、场景切换、XML配置视图和动作。
 ___
 <br>
 
